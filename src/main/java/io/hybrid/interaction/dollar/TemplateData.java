@@ -96,7 +96,8 @@ public class TemplateData
 		copyReversed(circlePointsCW, circlePointsCCW);
 		copyReversed(rectanglePointsCW, rectanglePointsCCW);
 		copyReversed(caretPointsCCW, caretPointsCW);
-		copyReversed(lineToRightPoints, lineToLeftPoints);
+		// copyReversed(lineToRightPoints, lineToLeftPoints);
+		copyReversed(lineToLeftPoints, lineToRightPoints);
 	}
 
 }
